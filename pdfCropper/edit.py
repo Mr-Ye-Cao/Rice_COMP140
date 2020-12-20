@@ -2,7 +2,9 @@
 
 from PyPDF2 import PdfFileWriter, PdfFileReader
 
-with open("bee.pdf", "rb") as in_f:
+book_name = ""
+
+with open(book_name, "rb") as in_f:
     input1 = PdfFileReader(in_f)
     output = PdfFileWriter()
 
